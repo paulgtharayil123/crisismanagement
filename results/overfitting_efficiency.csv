@@ -1,0 +1,7 @@
+model,train_macro_f1,dev_macro_f1,macro_f1,gap_train_minus_test,params,train_sec,infer_ms_per_1k,best_epoch
+TF-IDF + LogReg (text),0.7853,0.6767,0.7043,0.081,20241.0,1.2192,10.5057,
+Text only (DistilBERT),0.764,0.7099,0.7163,0.0477,197121.0,6.4317,3.6955,3.0
+Image only (EfficientNet-B0),0.7894,0.7232,0.7217,0.0677,328193.0,8.0598,4.1743,2.3333
+Early fusion,0.8706,0.7625,0.7581,0.1126,524801.0,7.861,4.9258,3.3333
+Late fusion,0.8287,0.7556,0.7653,0.0634,525314.0,14.4915,7.8699,
+Cross-attention fusion,0.8415,0.7628,0.7611,0.0804,2249473.0,80.8387,132.2015,3.0

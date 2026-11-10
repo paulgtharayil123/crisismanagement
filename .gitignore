@@ -1,0 +1,8 @@
+features/
+__pycache__/
+*.pt
+results/runs.pkl
+.ipynb_checkpoints/
+results_for_report.zip
+*.zip
+crisismmd_images/

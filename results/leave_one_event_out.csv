@@ -1,0 +1,22 @@
+event,model,n_test,loeo_macro_f1,loeo_auroc
+california_wildfires,Text only (DistilBERT),240,0.559011859908313,0.6836353178027034
+california_wildfires,Image only (EfficientNet-B0),240,0.6075036075036075,0.7383759946313873
+california_wildfires,Early fusion,240,0.5681551116333725,0.7504553734061931
+hurricane_harvey,Text only (DistilBERT),568,0.6962699643173036,0.7878579610538373
+hurricane_harvey,Image only (EfficientNet-B0),568,0.7021228082176163,0.7970360824742267
+hurricane_harvey,Early fusion,568,0.7172200736557173,0.8364977090492555
+hurricane_irma,Text only (DistilBERT),548,0.660540176669209,0.6996982758620689
+hurricane_irma,Image only (EfficientNet-B0),548,0.676143952721745,0.7502945402298851
+hurricane_irma,Early fusion,548,0.6931573547568122,0.7783477011494253
+hurricane_maria,Text only (DistilBERT),542,0.7139042987573345,0.7944160708205652
+hurricane_maria,Image only (EfficientNet-B0),542,0.6858292416803056,0.7478515491998637
+hurricane_maria,Early fusion,542,0.7416938997821351,0.8304664623765748
+iraq_iran_earthquake,Text only (DistilBERT),73,0.5385057471264367,0.6390374331550803
+iraq_iran_earthquake,Image only (EfficientNet-B0),73,0.7061191626409018,0.8257575757575758
+iraq_iran_earthquake,Early fusion,73,0.7332903503116269,0.8823529411764706
+mexico_earthquake,Text only (DistilBERT),159,0.6958996128189578,0.8076271186440678
+mexico_earthquake,Image only (EfficientNet-B0),159,0.7499294269468081,0.8537288135593222
+mexico_earthquake,Early fusion,159,0.7692898600204847,0.8816949152542373
+srilanka_floods,Text only (DistilBERT),107,0.8584145314567544,0.9552441229656419
+srilanka_floods,Image only (EfficientNet-B0),107,0.7729202037351444,0.8851717902350814
+srilanka_floods,Early fusion,107,0.8434146341463415,0.975135623869801

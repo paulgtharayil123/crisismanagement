@@ -1,0 +1,7 @@
+model,new text
+Cross-attention fusion,0.7635626469145824
+Early fusion,0.7658651378872593
+Image only (EfficientNet-B0),0.7299587371419374
+Late fusion,0.7724219675192024
+TF-IDF + LogReg (text),0.7042665612460042
+Text only (DistilBERT),0.7143151432618142

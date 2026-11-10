@@ -1,0 +1,42 @@
+{
+  "n_rows": {
+    "train": 13608,
+    "dev": 2237,
+    "test": 2237
+  },
+  "missing_text": 0,
+  "empty_after_cleaning": 0,
+  "missing_image_path": 0,
+  "pct_informative": {
+    "train": 61.3,
+    "dev": 62.9,
+    "test": 61.4
+  },
+  "words_mean": 12.1,
+  "words_p99": 22,
+  "rows_with_duplicated_text": 3179,
+  "exact_duplicate_rows": 0,
+  "texts_with_conflicting_labels": 285,
+  "test_texts_seen_in_train": 0,
+  "tweets_with_multiple_images": 1145,
+  "events": {
+    "hurricane_maria": 4556,
+    "hurricane_irma": 4504,
+    "hurricane_harvey": 4434,
+    "california_wildfires": 1589,
+    "mexico_earthquake": 1380,
+    "srilanka_floods": 1022,
+    "iraq_iran_earthquake": 597
+  },
+  "pct_informative_by_event": {
+    "california_wildfires": 70.9,
+    "hurricane_harvey": 65.2,
+    "hurricane_irma": 64.1,
+    "hurricane_maria": 55.4,
+    "iraq_iran_earthquake": 73.0,
+    "mexico_earthquake": 67.8,
+    "srilanka_floods": 30.8
+  },
+  "feature_extraction_sec": {},
+  "broken_images": 0
+}
