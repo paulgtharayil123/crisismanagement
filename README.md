@@ -19,8 +19,6 @@ results/                  - tables (.csv/.json) and figures produced by the note
 
 Everything is downloaded from inside the notebook so no separate commands needed:
 
-- Cell **B1** downloads the tweet text and labels from Hugging Face (`QCRI/CrisisMMD`).
-- Cell **B2** downloads the 18,082 images (~1.7 GB) straight from their Hugging Face web links
 
 Settings are in the first code cell: `MAX_PER_SPLIT = 500, SEEDS = [0]` gives a quick test (and downloads only
 those images); `MAX_PER_SPLIT = None, SEEDS = [0, 1, 2]` gives the full results reported
